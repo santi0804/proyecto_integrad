@@ -22,18 +22,21 @@
     display: inherit;  /* con esta etiqueta hereda lo del display flex padre */
     justify-content: space-evenly;
     align-items: center;
-    background-color: aqua;
+    color: aqua;
 }
+
 .menu a{
     color: greenyellow;
     text-decoration: none;
 }
 
-.contenido{
+.contenido {
  width: 100%;
  height: 700px;
  display: flex;
  justify-content: space-between;
+ background-color: gray;
+ gap: 5px;
 }
 
 .contenido main{
@@ -55,12 +58,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;  /* con esta se ajusta el tamaño de las img*/
 
 }
 
 .contenido main img {
-    display: flex;
+    display: inline-block;
     width: 33%;
     height: 200px;
     border: solid 2px black; /* borde solido con 1 px negro*/
+}
+.contenido section {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: column;
+
+}
+
+.contenido section article {
+    width: 100%;
+    height: 50%;
+    border: solid 1px black;
+
 }
