@@ -18,12 +18,12 @@ createRoot(document.getElementById('root')).render(
     </headers>
 
 
-    <div>
+    <div className='contenido'>
 
       <main>
-
-        <h1 className='titulo-principal'>"GALERIA DE IMAGENES"</h1>
-        <div>
+        
+        <h1 className=''>"GALERIA DE IMAGENES"</h1>
+        <div className='img-enlaces'>
           <img src="" alt="img-1" />
           <img src="" alt="img-2" />
           <img src="" alt="img-3" />
@@ -34,6 +34,7 @@ createRoot(document.getElementById('root')).render(
           <img src="" alt="img-8" />
           <img src="" alt="img-9" />
         </div>
+
       </main>
         
 
